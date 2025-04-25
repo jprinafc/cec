@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetor HY320 Mini - Sua Experiência de Cinema em Casa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white font-sans">
+
+    <header class="bg-black/100 hidden py-4 text-center">
+    </header>
+
+  <main>  
+  <section class="relative min-h-screen flex flex-col items-center justify-center text-center px-4">
+    <img src="img/projetordesign.png" alt="Mini projetor em ação" class="absolute h-screen inset-0 w-full h-full object-cover opacity-30">
+
+    <div class="relative z-10">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 fade-in">Transforme sua sala em um cinema</h1>
+      <p class="text-lg md:text-2xl mb-8 fade-in">Sua alternativa definitiva à Smart TV — sem abrir mão do lazer, mesmo com os preços lá em cima</p>
+      <a onclick="scrollToCTA()" class="inline-block bg-cyan-400 hover:bg-cyan-300 text-black font-bold py-3 px-6 rounded-2xl transition scroll-link">
+        Quero meu projetor
+      </a>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <img src="img/720p.jpg" alt="Resolução 720p Nativo" class="rounded-xl shadow-lg">
+        <div>
+            <h2 class="text-3xl font-bold mb-4">Imagens Incrivelmente Detalhadas com 720P Nativo</h2>
+            <p class="text-lg text-gray-300 mb-6">
+                Desfrute de imagens ricamente detalhadas com a resolução nativa de 720P deste projetor. Experimente projeções claras e vibrantes, com um brilho de 12000 Lux, superando outros com 7000 Lux.
+            </p>
+            <p class="text-lg text-gray-300">
+                Compatível com vídeos em 720P e 4K HD, ele eleva a sua experiência visual.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 bg-black">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Projeção Livre com Rotação de 180°</h2>
+        <p class="text-lg text-gray-300 mb-6">
+            Experimente a liberdade de projetar em diversos ângulos com a rotação de até 180° deste projetor.
+        </p>
+        <p class="text-lg text-gray-300">
+            Adapte a projeção para paredes, teto ou qualquer superfície desejada, explorando novas perspectivas para o seu entretenimento doméstico.        </p>
+      </div>
+      <img src="img/projecaolivre.jpg" alt="Projeção Livre 180 graus" class="rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <section class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <img src="img/correcao.jpg" alt="Correção Keystone" class="rounded-xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Correção Keystone 4P/4D</h2>
+        <p class="text-lg text-gray-300 mb-6">
+          Ajuste fácil da imagem, mesmo com o projetor fora de alinhamento. Perfeita para qualquer ambiente da casa.
+        </p>
+        <p class="text-lg text-gray-300">
+          Além disso, utilize a função Zoom para ajustar o tamanho da projeção sem precisar mover o projetor!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 bg-black">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Detalhes Restaurados com Cores Vibrantes</h2>
+        <p class="text-lg text-gray-300 mb-6">
+            Experimente imagens surpreendentemente detalhadas, onde cada nuance é restaurada com precisão.
+        </p>
+        <p class="text-lg text-gray-300">
+            Desfrute de cores vibrantes e um efeito de visualização realista que eleva a sua experiência de assistir.
+        </p>
+        </div>
+      <img src="img/detalhes.jpg" alt="Imagem Detalhada" class="rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <section class="py-16 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <img src="img/specs.jpg" alt="Especificações" class="rounded-xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Conectividade Avançada e Desempenho Superior</h2>
+        <p class="text-lg text-gray-300 mb-6">
+            Explore um mundo de possibilidades com Bluetooth 5.0, suporte para vídeos em 4K, brilho intenso de 12000 lúmens e a velocidade do Wi-Fi 6.
+        </p>
+        <p class="text-lg text-gray-300">
+            Desfrute da flexibilidade do zoom de 50% e da longa vida útil da lâmpada. Além disso, é compatível com diversos dispositivos e plataformas de streaming populares como YouTube, Netflix, Prime Video e Hulu.        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lead" class="py-16 px-6 bg-black text-center">
+    <h2 class="text-3xl font-bold mb-4">Receba Novidades e Ofertas Exclusivas!</h2>
+    <p class="text-lg text-gray-400 mb-6">Fique por dentro de outras oportunidaes como essa</p>
+    <div class="max-w-md mx-auto">
+      <form class="flex flex-col md:flex-col gap-4">
+        <input type="text" placeholder="Seu Nome" class="bg-gray-800 text-white rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-cyan-400">
+        <input type="email" placeholder="Seu Email" class="bg-gray-800 text-white rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-cyan-400">
+        <button type="submit" class="bg-cyan-400 hover:bg-cyan-300 text-black font-bold py-3 px-6 rounded-md transition">
+          Quero Receber!
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section id="comprar" class="py-20 px-6 text-center bg-gray-800 bg-gradient-to-t from-gray-800 to-black">
+    <h2 class="text-4xl font-bold mb-6">Garanta já o seu projetor HY320 Mini!</h2>
+    <p class="text-lg mb-4 text-gray-400">Ofertas limitadas. Aproveite agora e transforme suas noites em verdadeiras sessões de cinema.</p>
+    <a href="seu-link-de-afiliado" class="inline-block bg-cyan-400 hover:bg-cyan-300 text-black font-bold py-4 px-8 rounded-2xl transition">
+      Comprar Agora
+    </a>
+  </section>
+  </main>
+
+  <script>
+
+    function scrollToCTA() {
+      const cta = document.getElementById('lead')
+      cta.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+
+  </script>
+
+ 
+</body>
+</html>
